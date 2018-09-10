@@ -322,4 +322,6 @@ normal paragraph. For example:
 
 Use the `printf()` function.
 
+---
+
 >This file is copied under the MIT License from [markdown-test-file](https://github.com/mxstbr/markdown-test-file)
