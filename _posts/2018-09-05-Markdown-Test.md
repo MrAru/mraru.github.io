@@ -4,7 +4,7 @@ title:      Markdown Test 			# 标题
 subtitle:   A pure markdown test page to make sure the markdown support works as intended #副标题
 date:       2018-09-05 				# 时间
 author:     Mr.Aru 						# 作者
-header-img: img/post-markdowntest.jpg 	#这篇文章标题背景图片
+header-img: https://i.loli.net/2018/11/03/5bdc818005c71.jpg 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - Markdown
