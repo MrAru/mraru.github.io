@@ -33,6 +33,7 @@ tags:
 
     ```powershell
     Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+
     Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
     ```
 
@@ -60,11 +61,11 @@ tags:
     wsl ~
     ```
 
-    启动。^1^
+    启动。不加 `~` 会使 WSL 从当前路径打开，`~` 等价于 `cd ~`。
 
 3. Manjaro 设置
 
-    以下命令均需要 root 权限。
+    以下命令均需要 `root` 权限。
 
     ```bash
     # 生成并排序中国镜像站列表
@@ -98,9 +99,9 @@ tags:
 
 4. VS Code 设置
 
-    在 Windows 侧打开 VS Code。如果前述操作无误，VS Code 会自动提醒你安装 `Remote - WSL` 插件。安装完成后选择 Manjaro 并连接，VS Code 及 `Remote - WSL` 插件将自动安装在远程机上。
+    在 Windows 侧打开 VS Code。如果前述操作无误，VS Code 会自动提醒安装 `Remote - WSL` 插件。安装完成后选择 Manjaro 并连接，VS Code 及 `Remote - WSL` 插件将自动安装在远程机上。
 
-    Windows 盘符挂载于 WSL 侧 `/mnt`，WSL 挂载于 Windows 侧上文指定安装文件夹 `<floderpath to setup>/`。
+    Windows 盘符挂载于 WSL 侧 `/mnt` 文件夹，WSL 挂载于 Windows 侧 `<folderpath to setup>/rootfs` 文件夹。
 
 ### 结语
 
@@ -108,12 +109,12 @@ tags:
 
 ---
 
-^1^. 不加 `~` 会使 WSL 从当前路径打开，`~` 等价于 `cd ~`。
-
 参考
 
 > [Dev on Windows with WSL](https://dowww.spencerwoo.com/)
+
 > [Manjaro Linux for WSL](https://github.com/riag/manjaro-linux-for-wsl)
+
 > [LxRunOffline](https://github.com/DDoSolitary/LxRunOffline)
 
 ---
