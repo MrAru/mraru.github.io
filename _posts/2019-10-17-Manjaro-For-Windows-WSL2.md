@@ -33,7 +33,8 @@ tags:
 
     ```powershell
     Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
-
+    ```
+    ```powershell
     Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
     ```
 
