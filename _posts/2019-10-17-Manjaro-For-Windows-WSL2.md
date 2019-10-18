@@ -107,7 +107,7 @@ tags:
 
     Windows 盘符挂载于 WSL 侧 `/mnt` 文件夹，WSL 挂载于 Windows 侧 `<folderpath to setup>/rootfs` 文件夹。
 
-至此，绝大多数通用 WSL 配置已完成，你应该可以直接上手开发了。最后祝你，开发愉快。
+至此，绝大多数通用 WSL 配置已完成，你应该可以直接上手开发了。最后祝你：开发愉快，再见。
 
 ---
 
